@@ -6,7 +6,7 @@ Hope this collection is helpful saving you time.
 I am a strong believer in UNIX philosopy. Unix command tools are there in the abosolute perfection state to be utilised on files as large as your mounted storage can handle.
 They do very simple tasks but with such speed and efficiency that no interpreped/modular language can compete with (on the same number of cores). I use R, SQL and Python regularly in order to deal with complex statistical or data wrangling issues; however, I am yet to see the effciency and simplicity of awk, sed and grep challagned in the slighest way.
 
-##===============================================================================================##
+##=============================================================================##
 
 If ever wanted to know why I do things the way I do, have a read HERE: 
 
@@ -48,4 +48,4 @@ or as an abstract:
 
 17. Rule of Extensibility: Design for the future, because it will be here sooner than you think. 
 
-##+++++++++++++++++++++++++++++++ When there is AWK there is a way++++++++++++++++++++++++++++++++##
+##+++++++++++++++++++++ Where there is AWK there is a way +++++++++++++++++++++##
