@@ -1,10 +1,10 @@
+#!/bin/bash
 ##==============================================##
 ##              Md5sum checker                  ##
 ##              by                              ##
 ##              Dr.Mazdak Salavati              ##
 ##              30.03.2017                      ##
 ##==============================================##
-#!/bin/bash
 for f in ./*/*/*.fastq.gz
 do
 key="$(md5sum $f|awk '{print$1}')"
