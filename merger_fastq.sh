@@ -8,7 +8,7 @@
 # This is a solution to when you have the same library sequenced multiple times and you have to merge them. 
 # Bare in mind the files should share a commong sample name to be used as a substring in find. 
 # There is no need to zcat either as bgzip compression handles the output as it was: 
-# Two .gz files glued to eachother file after another.
+# Two .gz files glued to each other one after another.
 
 mkdir -p ./Merged;
 for f in "./"*.fastq.gz;
