@@ -1,10 +1,21 @@
 #!/bin/bash
-##==============================================##
-##              File Sorter	                ##
-##              by                              ##
-##              Dr.Mazdak Salavati              ##
-##              16.03.2017                      ##
-##==============================================##
+##==============================================================================##
+##             			 File Sorter	      		                ##
+##             		                  					##
+##                       Copyright (C) 2017  Dr.Mazdak Salavati	 	        ##
+##++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++##
+##  This program is free software: you can redistribute it and/or modify	##
+##  it under the terms of the GNU General Public License as published by	##
+##  the Free Software Foundation, either version 3 of the License, or		##
+##  (at your option) any later version.						##
+##  This program is distributed in the hope that it will be useful,		##
+##  but WITHOUT ANY WARRANTY; without even the implied warranty of		##
+##  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the		##
+##  GNU General Public License for more details.				##
+##										##
+##  You should have received a copy of the GNU General Public License		##
+##  along with this program.  If not, see <http://www.gnu.org/licenses/>. 	##
+##==============================================================================##
 ## Have you ever had to sort out 1000s of files in to few groups (viz. folders)?!
 ## I had more than 1000 PDF files named with individual IDs that only existed on a separate list ('ID.list' was of comma separated values).
 ## ID.list also had GROUP information under 1st column ($1) and individual IDs under 4th ($4). 

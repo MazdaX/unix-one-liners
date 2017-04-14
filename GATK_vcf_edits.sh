@@ -1,10 +1,21 @@
 #!/bin/bash
-##==============================================##
-##              VCF edits for GATK              ##
-##              by                              ##
-##              Dr.Mazdak Salavati              ##
-##              30.03.2017                      ##
-##==============================================##
+##==============================================================================##
+##             			 VCF edits for GATK  		                ##
+##             		                  					##
+##                       Copyright (C) 2017  Dr.Mazdak Salavati	 	        ##
+##++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++##
+##  This program is free software: you can redistribute it and/or modify	##
+##  it under the terms of the GNU General Public License as published by	##
+##  the Free Software Foundation, either version 3 of the License, or		##
+##  (at your option) any later version.						##
+##  This program is distributed in the hope that it will be useful,		##
+##  but WITHOUT ANY WARRANTY; without even the implied warranty of		##
+##  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the		##
+##  GNU General Public License for more details.				##
+##										##
+##  You should have received a copy of the GNU General Public License		##
+##  along with this program.  If not, see <http://www.gnu.org/licenses/>. 	##
+##==============================================================================##
 ## Using the Genome Analysis Toolkit pipeline and Ensmbl gene annotations I had to jump through many hoops.
 ## Beside unix tools you also need Samtools, Picard-tools and vcftools already compiled on your system
 ## I could have done the first step with GATK SelectVariant tools as well but vcftools runs faster than JAVA!!!
