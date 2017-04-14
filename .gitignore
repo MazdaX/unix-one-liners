@@ -1,2 +1,4 @@
-.Rhistory
-_config.yml
+*.Rhistory
+*.yml
+./.Rhistory
+./_config.yml
