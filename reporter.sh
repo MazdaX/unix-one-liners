@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Reported script for SGE scheduler
+#Reporter script for SGE scheduler
 while true;do
         qstat -ext -u $USER
         tag=$(qstat -ext -u $USER | awk 'NR==3 {print $1}')
