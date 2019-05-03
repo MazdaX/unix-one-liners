@@ -23,7 +23,7 @@ key="$(md5sum $f|awk '{print$1}')"
                 echo "Passed"
         else
                 echo "$f failed md5sum check!" #output is to terminal but could always be appended to a file >> fail_report.txt
-                echo "$f" >> fial_report.txt
+                echo "$f" >> final_report.txt
         fi
 
 done;
