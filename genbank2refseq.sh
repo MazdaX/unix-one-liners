@@ -33,9 +33,9 @@ for f in "${files_array[@]}";do
 			match=$(grep "$chrom" dict | cut -f2)
 			#Reconstructing BED6 format for each line 
 			printf '%s\t%s\t%s\t%s\t%s\t%s\n' "${match} ${LINE[@]:1}" >> ${name}.bed
-			#Fix for later found issue of extra tabs isntead of '%s\t%s\n' 
-			sed -i -e 's/ /\t/' -e 's/\t$//' ${name}.bed
-		  done;
+		done;
+	#Fix for later found issue of extra tabs isntead of '%s\t%s\n' 
+	sed -i -e 's/ /\t/' -e 's/\t$//' ${name}.bed
 	echo "$(date) ===== Finished chr renaming for $name"
 	echo "$(date) Gz compression."
 	pigz ${name}.bed
